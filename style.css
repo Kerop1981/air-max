@@ -1,0 +1,93 @@
+:root {
+    --general-rext: #000000;
+}
+
+ul li{
+        list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+
+a, a:visited {
+    text-decoration: none;
+}
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    max-width: 1310px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;
+}
+.nav__list {
+    display: flex;
+    gap: 4vh 40px;
+    margin-left: 30%;
+}
+
+
+.nav__link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.nav__link span{
+    font-weight: 900;
+    font-size: 15px
+}
+
+.img-poisk{
+    width: 20px;
+}
+.img-poisk2{
+    width: 1.3px;
+}
+/* ================================ */
+
+.photo__conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FFB800 0%, #DE343D 100%);
+    max-width: 1900px;
+    max-height: 750px;
+    
+}
+
+.photo__nadpis {
+    position: absolute;
+    font-size: 290px;
+    opacity: 0.2;
+    z-index: 10;
+    background: url(/img/krosovki/Frame\ 2.png);
+}
+.text__air {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.photo__set  {
+    position: absolute;
+}
+
+
+.photo-img img {
+ width: 400px;
+ height: 400px;
+}
+
