@@ -67,7 +67,7 @@ a, a:visited {
     background: linear-gradient(135deg, #FFB800 0%, #DE343D 100%);
     max-width: 1900px;
     max-height: 750px;
-    
+    position: relative
 }
 
 .photo__nadpis {
@@ -75,7 +75,7 @@ a, a:visited {
     font-size: 290px;
     opacity: 0.2;
     z-index: 10;
-    background: url(/img/krosovki/Frame\ 2.png);
+    z-index: 2;
 }
 .text__air {
     font-family: "Roboto", sans-serif;
@@ -83,11 +83,20 @@ a, a:visited {
 }
 .photo__set  {
     position: absolute;
+    width: 455px;
+    height: 300px;
+    display: flex
+;
+}
+
+.photo__img img {
+ width: 400px;
+ height: 400px
+ 
 }
 
 
-.photo-img img {
- width: 400px;
- height: 400px;
+.photo__img {
+    z-index: 4;
 }
 
